@@ -9,7 +9,7 @@ create 可以简写为 c，即 `blade create` 可以简写为 `blade c`。
 
 ## 案例
 
-```text
+```bash
 # 查看 create 命令帮助文档
 blade create -h
 
@@ -40,13 +40,13 @@ blade destroy 6fa04946baf42920
 
 ## 参数
 
-```text
+```bash
   -h, --help   查看 create 命令帮助
 ```
 
 ## 可使用的父命令参数
 
-```text
+```bash
   -d, --debug   设置 DEBUG 执行模式
 ```
 

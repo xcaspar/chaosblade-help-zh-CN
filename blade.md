@@ -8,7 +8,7 @@ chaosblade 是一款简单易用、功能强大的混沌实验实施工具，欢
 
 ## 案例
 
-```text
+```bash
 # 查看 blade 命令帮助文档
 blade -h
 
@@ -21,7 +21,7 @@ blade create cpu fullload -d
 
 ## 参数
 
-```text
+```bash
 -d, --debug 设置工具为 DEBUG 模式，主要用于调试使用
 -h, --help  查看 blade 命令帮助文档
 ```

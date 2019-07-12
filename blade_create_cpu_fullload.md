@@ -7,13 +7,13 @@
 CPU 相关的混沌实验包含 CPU 满载，可以指定核数或者指定核做满载。旨在 CPU 在特定负载下，验证服务质量、监控告警、流量调度、弹性伸缩等能力。
 fullload 可以简写为 fl，即 `blade create cpu fullload` 简写为 `blade create cpu fl`
 
-```text
+```bash
 blade create cpu fullload [flags]
 ```
 
 ## 案例
 
-```text
+```bash
 # 创建 CPU 满载实验
 blade create cpu fl
 
@@ -75,7 +75,7 @@ blade create cpu fl --cpu-list 0,4,7
 
 ## 参数
 
-```text
+```bash
   -h, --help             CPU 满载帮助文档
       --timeout string   设置混沌实验运行时长，到时实验自动恢复
       --cpu-count string   CPU 满载核数
