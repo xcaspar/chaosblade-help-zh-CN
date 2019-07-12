@@ -1,1 +1,2 @@
-# chaosblade-help-zh-CN
+# Initial page
+
