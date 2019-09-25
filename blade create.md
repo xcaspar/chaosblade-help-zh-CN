@@ -7,9 +7,21 @@
 创建混沌实验命令，每个实验对应一个 uid，后续的查询、销毁实验都要用到此 uid，如果遗忘了 uid，可以通过 `blade status --type create` 命令进行查询。
 create 可以简写为 c，即 `blade create` 可以简写为 `blade c`。
 
+## 参数
+
+```text
+  -h, --help   查看 create 命令帮助
+```
+
+## 可使用的父命令参数
+
+```text
+  -d, --debug   设置 DEBUG 执行模式
+```
+
 ## 案例
 
-```bash
+```text
 # 查看 create 命令帮助文档
 blade create -h
 
@@ -38,19 +50,3 @@ blade destroy 6fa04946baf42920
 %Cpu0  :  0.3 us,  0.3 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 ```
 
-## 参数
-
-```bash
-  -h, --help   查看 create 命令帮助
-```
-
-## 可使用的父命令参数
-
-```bash
-  -d, --debug   设置 DEBUG 执行模式
-```
-
-## 相关命令
-
-* [blade](blade.md)     - chaosblade 工具执行命令
-* [blade create cpu](blade_create_cpu_fullload.md)     - 创建 CPU 实验

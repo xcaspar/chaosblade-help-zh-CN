@@ -1,6 +1,17 @@
 # Table of contents
 
 * [blade](blade.md)
-* [blade create](blade_create.md)
-* [blade create cpu fullload](blade_create_cpu_fullload.md)
-
+* [blade create](blade%20create.md)
+* [blade create cpu load](blade%20create%20cpu%20load.md)
+* [blade create disk burn](blade%20create%20disk%20burn.md)
+* [blade create disk fill](blade%20create%20disk%20fill.md)
+* [blade create mem load](blade%20create%20mem%20load.md)
+* [blade create network delay](blade%20create%20network%20delay.md)
+* [blade create network dns](blade%20create%20network%20dns.md)
+* [blade create network drop](blade%20create%20network%20drop.md)
+* [blade create network loss](blade%20create%20network%20loss.md)
+* [blade create process kill](blade%20create%20process%20kill.md)
+* [blade create process stop](blade%20create%20process%20stop.md)
+* [blade create script delay](blade%20create%20script%20delay.md)
+* [blade create script exit](blade%20create%20script%20exit.md)
+* [blade server](blade%20server.md)
