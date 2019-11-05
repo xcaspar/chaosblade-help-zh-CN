@@ -19,6 +19,7 @@
 * [blade create docker network](blade%20create%20docker%20network.md)
 * [blade create docker process](blade%20create%20docker%20process.md)
 * [blade create docker container](blade%20create%20docker%20container.md)
+* [blade create k8s](blade%20create%20k8s.md)
 * [blade create k8s node-cpu](blade%20create%20k8s%20node-cpu.md)
 * [blade create k8s node-network](blade%20create%20k8s%20node-network.md)
 * [blade create k8s node-process](blade%20create%20k8s%20node-process.md)
