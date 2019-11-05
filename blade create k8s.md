@@ -82,13 +82,15 @@ spec:
   experiments:
   - scope: node
     target: cpu
-    action: load
-    desc: "cpu load"
-    flags:
+    action: fullload
+    desc: "increase node cpu load by names"
+    matchers:
+    - name: names
+      value:
+      - "cn-hangzhou.192.168.0.205"
     - name: cpu-percent
-      value: "60"
-    - name: ip
-      value: 192.168.0.34
+      value:
+      - "80"
 ```
 然后使用 `kubeclt apply -f chaosblade_cpu_load.yaml` 命令执行更新即可。
 

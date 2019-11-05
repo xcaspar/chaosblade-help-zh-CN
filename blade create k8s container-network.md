@@ -130,4 +130,4 @@ blade destroy 6e46a5df94e0b065
 Q: {"code":504,"success":false,"error":"unexpected status, the real value is Error","result":{"uid":"623841684347c05f","success":false,"error":"unexpected status, the real value is Error","statuses":[{"uid":"4b25f66580c4dbf465a1b167c4c6967e987773442e5d47f0bee5db0a5e27a12d","name":"php-redis","state":"Error","kind":"container","error":"10.0.0.1 www.baidu.com #chaosblade has been exist exit status 1","success":false,"nodeName":"cn-hangzhou.192.168.0.203"}]}}
 A: 所以实验已经存在
 
-其他问题参考 [blade create k8s](blade_create_k8s.md) 常见问题
+其他问题参考 [blade create k8s](blade%20create%20k8s.md) 常见问题
